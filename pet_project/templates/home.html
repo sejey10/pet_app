@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <a href="{% url 'add_owner' %}">Add Owner</a>
+    <br>
+    <hr>
+    <a href="{% url 'add_pet' %}">Add Pet</a>
+    <br>
+    <hr>
+    <a href="{% url 'add_species' %}">Add Species</a>
+    <br>
+    <hr>
+    <a href="{% url 'assign_owner' %}">Assign Owner</a>
+    <br>
+    <hr>
+    <hr>
+    <a href="{% url 'show_owners' %}">Show All Owners</a>
+    <br>
+    <a href="{% url 'show_pets' %}">Show All Pets</a>
+    <br>
+    <a href="{% url 'show_species' %}">Show All Species</a>
+    <br>
+
+
+    <a href="{% url 'owners_with_pets' %}">Show All Pets Owned</a>
+    <br>
+
+
+    
+</body>
+</html>
